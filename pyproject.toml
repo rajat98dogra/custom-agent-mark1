@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "custom-agent-mark1"
+version = "0.1.0"
+description = ""
+authors = ["Harjot Pahwa"]
+readme = "README.md"
+packages = [{include = "custom_agent_mark1"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7"
+numpy = "1.24.2"
+openai = "0.27.1"
+pandas = "1.5.3"
+redis = "4.5.4"
+requests = "2.31.0"
+streamlit = "1.20.0"
+streamlit_chat = "0.0.2.2"
+termcolor = "2.2.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "*"
+ipykernel = "*"
+textract = "*"
+tiktoken = "*"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
