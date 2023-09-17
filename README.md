@@ -12,3 +12,5 @@ A Chatbot customised to a particular dataset using OpenAI API.
 <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
 </body>
 </html>
+
+<iframe src='diagram img\arch.html'> </iframe>
